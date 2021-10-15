@@ -1,0 +1,52 @@
+.dashboard-content {
+    position: absolute;
+    height: 100%;
+    width: calc(100% - 78px);
+    left: 78px;
+    transition: all 0.5s ease;
+}
+
+.dashboard-content .text {
+    font-size: 25px;
+    font-weight: 500;
+    color: #1d1b31;
+    margin-top: 6rem;
+    margin-left: 1rem;
+}
+
+.sidebar.active~.dashboard-content {
+    width: calc(100% - 240px);
+    left: 240px;
+}
+
+#modaldata tbody tr > td:last-of-type{
+    display:none;
+}
+
+tr{
+    font-size: 15px;
+}
+
+td{
+    font-size: 15px;
+}
+
+#example_paginate{
+    font-size: 15px;
+}
+
+#example_info{
+    font-size: 15px;
+}
+
+#example_filter{
+    font-size: 15px;
+}
+
+#example_length{
+    font-size: 15px;
+}
+
+table tbody tr .btn-info{
+    font-size: 11px;
+}
