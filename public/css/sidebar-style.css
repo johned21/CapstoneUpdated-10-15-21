@@ -45,7 +45,7 @@ a:focus {
     width: 240px;
 }
 
-.sidebar .logo-content .logo {
+.sidebar .profile-content .profile {
     position: relative;
     margin-top: 5rem;
     margin-left: 1%;
@@ -59,20 +59,51 @@ a:focus {
     transition: all 0.5s ease;
 }
 
-.sidebar .logo-content .logo .logo-name {
+.sidebar .profile-content .profile .profile-pic {
     font-size: 26px;
     width: auto;
 }
 
-.sidebar.active .logo-content .logo {
+.sidebar.active .profile-content .profile {
     opacity: 1;
     pointer-events: none;
+}
+
+.sidebar .profile-content .profile .profile-pic img{
+    height: 225px;
+    width: auto;
+    position: absolute;
+}
+
+input[type="file"]{
+    display: none;
+    z-index: 2;
+}
+
+.addphoto{
+    color: white;
+    z-index: 1;
+    height: 40px;
+    width: auto;
+    background-color: #f5af09;
+    position: absolute;
+    margin-top: 15rem;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
 }
 
 .sidebar #btn-menu {
     position: relative;
     color: #fff;
     left: 50%;
+    cursor: pointer;
     top: -4rem;
     font-size: 30px;
     height: 50px;
@@ -88,7 +119,8 @@ a:focus {
 
 .sidebar ul {
     margin-left: -2rem;
-    margin-top: -2rem;
+    margin-top: 12rem;
+
 }
 
 .sidebar ul li {

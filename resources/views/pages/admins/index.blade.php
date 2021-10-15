@@ -8,7 +8,7 @@
 
     <div class="dashboard-content">
         <div class="text">
-            <h4>Hi ADMIN: {{ auth()->user()->firstName }}</h4>
+            <h4>ADMIN: {{ auth()->user()->firstName }}</h4><br>
             <div class="container-fluid">
 
                 <div class="row ml-3 mr-3">
